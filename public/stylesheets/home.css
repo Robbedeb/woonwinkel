@@ -1,0 +1,103 @@
+.nav{
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav a{
+    padding: 0px 20px;
+    font-size: 17px;
+}
+
+.nav a:hover{
+    color: #918f90;
+}
+.nav a.current{
+    color: #918f90;
+}
+
+.banner{
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 500px;
+}
+
+.banner .inhoud{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .inhoud h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.line{
+    display:block;
+    position: absolute;
+    width: 110px;
+    border:0;   	
+    border-top: 2px solid black; /* YOUR COLOR HERE */
+    margin: 4% 0;
+    padding: 0;
+}
+
+.zoekbalk{
+    position: absolute;
+    top: 150px;
+    right: 46%;
+}
+
+.zoeken{
+    background-color: transparent !important;
+    border: none;
+    color: black !important;
+    font-size: 15px;
+}
+
+.zoeken::placeholder{
+    color: black;
+}
+
+.line2{
+    display:block;
+    position: absolute;
+    width: 250px;
+    border:0;   	
+    border-top: 3px solid black; /* YOUR COLOR HERE */
+    margin: 4% 0;
+    padding: 0;
+}
+
+input[type="text"]{
+    outline: none;
+}
+
+.producten .inhoud{
+    width: 100%;
+    height: 100%;
+    padding: 0px;;
+}
+
+.producten .inhoud img{
+    width: 100%;
+    height: 100%;
+}
+
+.zoekbalk svg{
+    position: relative;
+    left: 58px;
+    font-weight: bold;
+}
+.titel-bes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
